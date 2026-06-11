@@ -1,11 +1,14 @@
 # churn_prediction
 
 ---
-##📊 Production-Ready Customer Churn Prediction System
+
+📊 Production-Ready Customer Churn Prediction System
+
 An enterprise-grade, end-to-end machine learning application designed to predict telecom customer churn based on account usage, payment setups, and contract patterns. This system utilizes a unified scikit-learn pipeline deployed via a high-performance Flask REST API and served through an executive-level Streamlit SaaS Dashboard.
+
 ---
 
-##🎯 Core System Goals & Objectives
+🎯 Core System Goals & Objectives
 The primary objective of this project is to bridge the gap between sandbox data science and production-level software engineering.
 
 Prevent Train-Test Skew: Implement a completely unified machine learning pipeline (ColumnTransformer + RandomForestClassifier) ensuring that data preprocessing, handling of missing values, encoding, and scaling are applied identically during training and inference phases.
@@ -16,7 +19,7 @@ Modular Component Isolation: Separate the project cleanly into structural layers
 
 ---
 
-##📈 Machine Learning Workflow (What We Have Done)
+📈 Machine Learning Workflow (What We Have Done)
 
 Robust Feature Selection & Extraction: Filtered the dense Telco dataset down to 6 highly interpretable features across continuous usage metrics (tenure, MonthlyCharges, TotalCharges) and operational structural components (Contract, InternetService, PaymentMethod).
 
@@ -30,7 +33,7 @@ Model Construction & Serialization: Trained a structured RandomForestClassifier 
 
 ---
 
-##💼 Business Use Cases & Real-World Application
+💼 Business Use Cases & Real-World Application
 
 This customer intelligence infrastructure can be instantly adapted across consumer subscription operations:
 
@@ -42,7 +45,7 @@ Fintech & Banking: Predict credit card or account abandonment rates by feeding c
 
 ---
 
-##📂 Source Dataset Link
+📂 Source Dataset Link
 
 The system is trained using the industry-standard Kaggle Telco Customer Churn Dataset (IBM Analytics).
 
@@ -50,7 +53,7 @@ Dataset Download URL: IBM Telco Customer Churn Dataset via Kaggle
 
 ---
 
-##💻 Technical Requirements
+💻 Technical Requirements
 
 Ensure you are utilizing Python 3.9+ or Python 3.10+. The system relies on fixed structural versions to guarantee execution stability:
 
