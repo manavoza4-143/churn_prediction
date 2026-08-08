@@ -93,4 +93,5 @@ Open a new, separate terminal window or tab, navigate back to your project direc
 
 Bash
 streamlit run frontend/ui.py
-Expected Outcome: Your system will automatically open a local web browser window at http://localhost:8501, displaying your live operational Customer Churn Analytics Dashboard. Adjust fields and click evaluate to trace production pipeline predictions instantly.
+Expected Outcome: Your system will automatically open a local web browser window at http://localhost:8501, displaying your live operational Customer Churn Analytics Dashboard. Adjust fields and click evaluate to trace production pipeline predictions instantly..
+
